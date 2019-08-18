@@ -8,6 +8,12 @@ html {
 
 body {
   font-family: Helvetica, Arial, sans-serif;
+  background: $dark-slate-gray;
   font-size: 1.6rem;
   line-height: 1.6;
+  color: $light-steel-blue;
+}
+
+h1 {
+  color: $medium-turquoise;
 }
