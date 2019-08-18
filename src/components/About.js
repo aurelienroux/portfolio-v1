@@ -4,11 +4,11 @@ const About = () => (
   <div>
     <p>
       I'm a french canadian developer based in Montreal QC. 
-      I started development with HTML5 and CSS3 as a hobby in 2013 and after doing some websites for fun, it became my full-time job in 2016.
+      I started development with HTML5 and CSS3 as a hobby in 2013 and after doing a couple of websites, it became my full-time job in 2016.
     </p>
     <p>
       In 2017, I completed <a href="https://concordiabootcamps.ca/" target="_blank" rel="noopener noreferrer">DecodeMtl</a>, a Full-stack immersive bootcamp specializing in javascript,
-      where I have learned fundamentals of programming and how to develop websites and web applications thhe right way.
+      where I have learned fundamentals of programming and how to develop websites and web applications the right way.
     </p>
     <p>
       A Lifelong learner, I’m always trying to improve my skills and learn new technologies.

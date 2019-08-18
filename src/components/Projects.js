@@ -4,7 +4,6 @@ import ProjectUnit from './ProjectUnit'
 
 const Projects = () => (
   <div>
-    Projects goes here
     {dataProjects.map((el, index) => (
       <ProjectUnit key={index} el={el} />
     ))}
