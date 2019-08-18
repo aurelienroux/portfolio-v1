@@ -8,7 +8,7 @@ const About = () => (
     </p>
     <p>
       In 2017, I completed <a href="https://concordiabootcamps.ca/" target="_blank" rel="noopener noreferrer">DecodeMtl</a>, a Full-stack immersive bootcamp specializing in javascript,
-      where I have learned fundamentals of programming and how to develop websites and web applications.
+      where I have learned fundamentals of programming and how to develop websites and web applications thhe right way.
     </p>
     <p>
       A Lifelong learner, I’m always trying to improve my skills and learn new technologies.
