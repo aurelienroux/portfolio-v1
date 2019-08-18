@@ -7,7 +7,7 @@ const ProjectUnit = (props) => (
     <p>{props.el.url}</p>
     <p>{props.el.gitRepo}</p>
     {props.el.techs.map((el) => (`${el}, `))}
-    <hr></hr>
+    <p>************</p>
   </div>
 );
 

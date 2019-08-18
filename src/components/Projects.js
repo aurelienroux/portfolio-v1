@@ -8,6 +8,7 @@ const Projects = () => (
     {dataProjects.map((el, index) => (
       <ProjectUnit key={index} el={el} />
     ))}
+    <hr/>
   </div>
 );
 

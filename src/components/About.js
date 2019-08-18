@@ -7,7 +7,7 @@ const About = () => (
       I started development with HTML5 and CSS3 as a hobby in 2013 and after doing some websites for fun, it became my full-time job in 2016.
     </p>
     <p>
-      In 2017, I completed <a href="https://concordiabootcamps.ca/" target="_blank">DecodeMtl</a>, a Full-stack immersive bootcamp specializing in javascript,
+      In 2017, I completed <a href="https://concordiabootcamps.ca/" target="_blank" rel="noopener noreferrer">DecodeMtl</a>, a Full-stack immersive bootcamp specializing in javascript,
       where I have learned fundamentals of programming and how to develop websites and web applications.
     </p>
     <p>
@@ -27,6 +27,7 @@ const About = () => (
       <li>WooCommerce</li>
       <li>jQuery</li>
     </ul>
+    <hr/>
   </div>
 );
 
