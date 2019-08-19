@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'normalize.css/normalize.css';
+import 'typeface-roboto';
+import 'typeface-montserrat';
 import './styles/styles.scss';
 import Portfolio from './components/Porfolio';
 import * as serviceWorker from './serviceWorker';
