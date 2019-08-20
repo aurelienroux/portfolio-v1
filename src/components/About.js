@@ -5,7 +5,6 @@ const About = () => (
     <div className="content-container">
     <h3 className="about__title">About</h3>
       <p>
-      <i class="fas fa-ad"></i>
         I'm a french canadian developer based in Montreal QC. 
         I started development with HTML5 and CSS3 as a hobby in 2013 and after doing a couple of websites, it became my full-time job in 2016.
       </p>
