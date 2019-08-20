@@ -33,6 +33,42 @@ const dataProjects = [
       'html',
       'vanilla JS'
     ]
+  },
+  {
+    title: 'Hangman',
+    content: 'lorem ipsum lorem',
+    pro: false,
+    url: 'http://yahoo.com',
+    gitRepo: 'http://gitlab.com',
+    techs: [
+      'javascript',
+      'html',
+      'vanilla JS'
+    ]
+  },
+  {
+    title: 'Hangman',
+    content: 'lorem ipsum lorem',
+    pro: false,
+    url: 'http://yahoo.com',
+    gitRepo: 'http://gitlab.com',
+    techs: [
+      'javascript',
+      'html',
+      'vanilla JS'
+    ]
+  },
+  {
+    title: 'Hangman',
+    content: 'lorem ipsum lorem',
+    pro: false,
+    url: 'http://yahoo.com',
+    gitRepo: 'http://gitlab.com',
+    techs: [
+      'javascript',
+      'html',
+      'vanilla JS'
+    ]
   }
 ]
 

@@ -5,7 +5,8 @@ import ProjectUnit from './ProjectUnit'
 const Projects = () => (
   <div className="projects">
     <div className="content-container">
-      <div className="about__content">
+      <h3>Projects</h3>
+      <div className="projects__content">
         {dataProjects.map((el, index) => (
           <ProjectUnit key={index} el={el} />
         ))}
