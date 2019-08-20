@@ -8,20 +8,19 @@
   }
 
   &__greetings {
-    // font-size: 1.4rem;
     margin: 0;
   }
   
   &__title {
-    margin: 0;
-    font-size: 8rem;
     font-family: $Montserrat;
+    font-size: 8rem;
+    margin: 0;
   }
   
   &__sub {
-    margin: 0;
     font-family: $Montserrat;
     font-size: 6rem;
+    margin: 0;
   }
   
   &__intro {
