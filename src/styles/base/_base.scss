@@ -30,3 +30,10 @@ a {
   min-height: 50vh;
   padding: 10vh 0;
 }
+
+.content-container {
+  margin: 0 auto;
+  max-width: 100rem;
+  padding-left: $xl-size;
+  padding-right: $xl-size;
+}
