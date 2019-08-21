@@ -19,3 +19,14 @@ a {
   color: $light-grey;
   cursor: pointer;
 }
+
+.title {
+  font-family: $Montserrat;
+  font-size: 4rem;
+}
+
+.section {
+  border: 1px solid;
+  min-height: 50vh;
+  padding: 10vh 0;
+}

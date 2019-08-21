@@ -5,7 +5,7 @@ import Projects from './Projects';
 import Contact from './Contact';
 
 const Portfolio = () => (
-  <div>
+  <div className="content-container">
     <HeaderHero />
     <About />
     <Projects />

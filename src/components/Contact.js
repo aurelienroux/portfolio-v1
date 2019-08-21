@@ -1,10 +1,8 @@
 import React from 'react';
 
 const Contact = () => (
-  <div className="contact">
-    <div className="content-container">
-      Contact
-    </div>
+  <div className="contact section">
+    <h3 className="title">Contact</h3>
   </div>
 );
 

@@ -1,11 +1,8 @@
 .header {
-  border: 1px dotted;
-  height: 100vh;
-
-  &__content {
-    height: 100vh;
-    padding-top: 25vh;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
 
   &__greetings {
     margin: 0;
