@@ -1,5 +1,5 @@
 .nav {
-  a {
+  .icon {
     align-items: center;
     background: $black;
     border-radius: 100%;
@@ -39,7 +39,7 @@
     width: 100%;
     z-index: 30;
     
-    a {
+    .icon {
       margin-left: 15px;
     }
 
@@ -90,7 +90,7 @@
     right: 0;
     z-index: 30;
 
-    a {
+    .icon {
       margin-top: 15px;
     }
 
