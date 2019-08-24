@@ -1,9 +1,9 @@
 import React from 'react';
 import { 
-  FaLinkedin, 
-  FaInstagram, 
-  FaCodepen, 
-  FaGithub 
+  FaLinkedin,
+  FaInstagram,
+  FaCodepen,
+  FaGithub
 } from 'react-icons/fa';
 
 const Contact = () => (
