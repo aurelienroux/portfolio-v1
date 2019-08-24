@@ -8,7 +8,10 @@ import {
 
 const Contact = () => (
   <div className="contact section content-container">
-    <h3 className="title">Contact</h3>
+    <div className="title">
+      <div className="title__image"></div>
+      <h3 className="title__text">Contact</h3>
+    </div>
     <div>
       <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/rouxaurelien/">
         <FaLinkedin className="social-icon" />
