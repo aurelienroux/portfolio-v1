@@ -1,21 +1,34 @@
 import React from 'react'
-import {FaLinkedin} from 'react-icons/fa';
+import { 
+  FaEnvelope, 
+  FaFolder, 
+  FaHome, 
+  FaStreetView
+} from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Nav = () => (
-  <div className="navigation">
-    <a href="/home">
-      <FaLinkedin />
-    </a>
-    <a href="/home">
-      <FaLinkedin />
-    </a>
-    <a href="/home">
-      <FaLinkedin />
-    </a>
-    <a href="/home">
-      <FaLinkedin />
-    </a>
+  <div>
+    <div className="navigation">
+      <Link to="/">
+        <FaHome className="icon"/>
+      </Link>
+      <Link to="/about">
+        <FaStreetView className="icon"/>
+      </Link>
+      <Link to="/projects">
+        <FaFolder className="icon"/>
+      </Link>
+      <Link to="/contact">
+        <FaEnvelope className="icon"/>
+      </Link>
+      <hr></hr>
+    </div>
+    <div>
+      email
+    </div>
   </div>
+
 );
 
 export default Nav;

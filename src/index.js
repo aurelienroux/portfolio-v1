@@ -4,7 +4,7 @@ import 'normalize.css/normalize.css';
 import 'typeface-roboto';
 import 'typeface-montserrat';
 import './styles/styles.scss';
-import AppRouter from './routes/AppRouter'
+import AppRouter from './routes/AppRouter';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<AppRouter />, document.getElementById('root'));
