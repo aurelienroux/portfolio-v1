@@ -1,6 +1,5 @@
 .navigation {
   align-items: center;
-  background: $dark-grey;
   display: flex;
   justify-content: center;
   left: 0;
@@ -10,23 +9,28 @@
   
   a {
     align-items: center;
+    border-radius: 100%;
+    border: 1px solid;
     display: flex;
-    background: $dark-grey;
     justify-content: center;
-    padding: 10px;
-    z-index: 20;
+    margin: 0 20px;
+    padding: 20px;
+    transition: .3s;
+    
+    &:hover {
+      border: 1px solid #eee;
+      transition: .3s;
+      
+      & svg {
+        fill: #eee;
+        transition: .3s;
+      }
+    }
     
     & svg {
       height: 20px;
+      transition: .3s;
       width: 20px;
     }
-  }
-  
-  hr {
-    border-color: lighten($dark-grey, 20);
-    position: absolute;
-    width: 100%;
-    top: 11px;
-    z-index: 10;
   }
 }

@@ -3,12 +3,13 @@
 }
 
 html {
+  background: radial-gradient(circle, rgba(34,34,34,1) 0%, rgba(0,0,0,1) 100%);
   font-size: 62.5%;
+  min-height: 100vh;
 }
 
 body {
-  background: $dark-grey;
-  color: $light-grey;
+  color: $text-color;
   font-family: Roboto, Helvetica, Arial, sans-serif;
   font-size: 1.6rem;
   font-weight: 300;
@@ -21,6 +22,7 @@ a {
 }
 
 .title {
+  color: $light-grey;
   font-family: $Montserrat;
   font-size: 4rem;
   margin-top: 0;

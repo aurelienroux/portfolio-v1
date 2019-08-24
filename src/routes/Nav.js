@@ -22,13 +22,8 @@ const Nav = () => (
       <Link to="/contact">
         <FaEnvelope className="icon"/>
       </Link>
-      <hr></hr>
-    </div>
-    <div>
-      email
     </div>
   </div>
-
 );
 
 export default Nav;
