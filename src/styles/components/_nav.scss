@@ -1,7 +1,7 @@
 .nav {
   a {
     align-items: center;
-    background: black;
+    background: $black;
     border-radius: 100%;
     border: 1px solid;
     display: flex;
@@ -11,11 +11,11 @@
     z-index: 20;
     
     &:hover {
-      border: 1px solid #eee;
+      border: 1px solid $white;
       transition: .3s;
       
       & svg {
-        fill: #eee;
+        fill: $white;
         transition: .3s;
       }
     }
@@ -51,7 +51,7 @@
     .nav__links {
       justify-content: flex-end;
       position: relative;
-  
+
       &__line {
         background: $light-grey;
         display: flex;
