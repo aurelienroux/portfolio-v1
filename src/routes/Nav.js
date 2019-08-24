@@ -16,23 +16,27 @@ const Nav = () => (
     
     <div className="nav__top">
       <div className="nav__logo">
-        logo
+        <svg className="logo" viewBox="0 0 51 59">
+          <path d="M0.5,0.909655953 L50.5,29.7771694 L39.594,36.073656 L36.6878274,34.4283101 L11.6169922,49.0668487 L11.616,52.226656 L0.5,58.6446829 L0.5,0.909655953 Z M11.3187135,19.6482173 L11.3187135,39.9061215 L28.8625731,29.7771694 L11.3187135,19.6482173 Z" id="Combined-Shape"></path>
+        </svg>
       </div>
+      
       <div className="nav__links">
         <Link to="/">
-          <FaHome className="icon"/>
+          <FaHome />
         </Link>
         <Link to="/about">
-          <FaStreetView className="icon"/>
+          <FaStreetView />
         </Link>
         <Link to="/projects">
-          <FaFolder className="icon"/>
+          <FaFolder />
         </Link>
         <Link to="/contact">
-          <FaEnvelope className="icon"/>
+          <FaEnvelope />
         </Link>
         <div className="nav__links__line"></div>
       </div>
+
     </div>
 
     <div className="nav__right">
