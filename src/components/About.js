@@ -1,7 +1,7 @@
 import React from 'react'
 
 const About = () => (
-  <div className="about section">
+  <div className="about section content-container">
     <h3 className="title">About</h3>
     <p>
       I'm a french canadian developer based in Montreal QC. 

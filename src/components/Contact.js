@@ -7,7 +7,7 @@ import {
 } from 'react-icons/fa';
 
 const Contact = () => (
-  <div className="contact section">
+  <div className="contact section content-container">
     <h3 className="title">Contact</h3>
     <div>
       <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/rouxaurelien/">

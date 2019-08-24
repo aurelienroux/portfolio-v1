@@ -3,15 +3,12 @@
   flex-direction: column;
   justify-content: center;
   min-height: 100vh;
-
-  &__greetings {
-    margin: 0;
-  }
   
   &__title {
     color: #555;
     font-family: $Montserrat;
-    font-size: 8rem;
+    font-size: 8vw;
+    line-height: 1.4;
     margin: 0;
     text-shadow: 0 0 5px #555;
   }
@@ -19,12 +16,14 @@
   &__sub {
     color: #999;
     font-family: $Montserrat;
-    font-size: 6rem;
+    font-size: 5vw;
+    line-height: 1;
     margin: 0;
     text-shadow: 0 0 8px #444;
   }
   
-  &__intro {
+  &__text {
+    margin-bottom: 0;
     font-size: 2.5rem;
     max-width: 50rem;
   }
