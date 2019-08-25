@@ -8,27 +8,48 @@
   &__title {
     color: #555;
     font-family: $Montserrat;
-    font-size: 8vw;
+    font-size: 6rem;
     line-height: 1;
     margin-bottom: 30px;
-    margin-top: 0;
+    margin-top: 4rem;
     text-align: center;
     text-shadow: 0 0 5px #555;
+    
+    @include for-tablet-portrait-up {
+      font-size: 8rem;
+    }
+    
+    @include for-tablet-landscape-up {
+      font-size: 10rem;
+    }
   }
   
   &__sub {
     color: #999;
     font-family: $Montserrat;
-    font-size: 4vw;
+    font-size: 3rem;
     line-height: 1;
-    margin: 0;
+    margin-top: 2rem;
     text-align: center;
     text-shadow: 0 0 8px #444;
+
+    @include for-tablet-portrait-up {
+      font-size: 4rem;
+    }
   }
   
   &__text {
+    font-size: 2rem;
     margin-bottom: 0;
-    font-size: 2.5rem;
+    margin-top: 8rem;
     max-width: 50rem;
+
+    @include for-tablet-portrait-up {
+      font-size: 2.5rem;
+    }
+
+    &--second {
+      margin-top: 2rem;
+    }
   }
 }
