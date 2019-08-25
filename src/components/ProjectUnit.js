@@ -6,17 +6,46 @@ import {
 
 const ProjectUnit = (props) => (
   <div className="project-unit">
-    <h3 className="project-unit__title">{props.el.title}</h3>
-    <a target="_blank" rel="noopener noreferrer" href={props.el.url}>
-      <FaExternalLinkAlt />
-    </a>
-    {props.el.gitRepo && 
-      <a target="_blank" rel="noopener noreferrer" href={props.el.gitRepo}>
-        <FaGithub />
-      </a>
-    }
-    <p>{props.el.content}</p>
-    {props.el.techs.map((el) => (`${el}, `))}
+    <div>
+      <h3 className="project-unit__title">
+        {props.el.title}
+      </h3>
+
+      <div className="project-unit__links">
+        <a 
+          class="project-unit__icon"
+          target="_blank" 
+          rel="noopener noreferrer" 
+          href={props.el.url}
+        >
+          <FaExternalLinkAlt />
+        </a>
+        {props.el.gitRepo && 
+          <a 
+            class="project-unit__icon"
+            target="_blank" 
+            rel="noopener noreferrer" 
+            href={props.el.gitRepo}
+          >
+            <FaGithub />
+          </a>
+        }
+      </div>
+    </div>
+    
+    <p className="project-unit__content">
+      {props.el.content}
+    </p>
+
+    <div className="project-unit__footer">
+      {
+        props.el.techs.map((el) => (
+          <div className="project-unit__tech">
+            {el}
+          </div>
+        ))
+      }
+    </div>
   </div>
 );
 
