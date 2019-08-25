@@ -31,7 +31,18 @@
 
     &:hover {
       .social__line {
+        background: $white;
         transform: rotate(45deg);
+        transition: .3s ease-in-out;
+      }
+      
+      .social__link {
+        border: 1px solid $white;
+        transition: .3s ease-in-out;
+      }
+      
+      .social__icon {
+        fill: $white;
         transition: .3s ease-in-out;
       }
     }
