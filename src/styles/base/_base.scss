@@ -72,6 +72,10 @@ a {
     padding-left: $xxl-size;
     padding-right: $xxl-size;
   }
+  
+  @include for-big-desktop-up {
+    max-width: 180rem;
+  }
 }
 
 .button {

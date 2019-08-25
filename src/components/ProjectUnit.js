@@ -13,7 +13,7 @@ const ProjectUnit = (props) => (
 
       <div className="project-unit__links">
         <a 
-          class="project-unit__icon"
+          className="project-unit__icon"
           target="_blank" 
           rel="noopener noreferrer" 
           href={props.el.url}
@@ -22,7 +22,7 @@ const ProjectUnit = (props) => (
         </a>
         {props.el.gitRepo && 
           <a 
-            class="project-unit__icon"
+            className="project-unit__icon"
             target="_blank" 
             rel="noopener noreferrer" 
             href={props.el.gitRepo}
@@ -39,8 +39,8 @@ const ProjectUnit = (props) => (
 
     <div className="project-unit__footer">
       {
-        props.el.techs.map((el) => (
-          <div className="project-unit__tech">
+        props.el.techs.map((el, index) => (
+          <div key={index} className="project-unit__tech">
             {el}
           </div>
         ))
