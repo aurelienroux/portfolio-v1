@@ -40,7 +40,10 @@ const ProjectUnit = (props) => (
     <div className="project-unit__footer">
       {
         props.el.techs.map((el, index) => (
-          <div key={index} className="project-unit__tech">
+          <div 
+            key={index} 
+            className="project-unit__tech"
+          >
             {el}
           </div>
         ))

@@ -49,6 +49,11 @@
       flex: 1;
     }
 
+    .nav__logo {
+      position: relative;
+      top: -5px;
+    }
+
     .nav__logo .logo {
       fill: $light-grey;
       height: 50px;

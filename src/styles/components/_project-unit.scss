@@ -58,8 +58,10 @@
   }
 
   &__footer {
+    align-items: flex-start;
     display: flex;
     flex-wrap: wrap;
+    flex: 1;
   }
 
   &__tech {
