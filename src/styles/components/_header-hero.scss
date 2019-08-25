@@ -1,4 +1,5 @@
 .header {
+  align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7,19 +8,21 @@
   &__title {
     color: #555;
     font-family: $Montserrat;
-    font-size: 13vw;
+    font-size: 8vw;
     line-height: 1;
     margin-bottom: 30px;
     margin-top: 0;
+    text-align: center;
     text-shadow: 0 0 5px #555;
   }
   
   &__sub {
     color: #999;
     font-family: $Montserrat;
-    font-size: 5vw;
+    font-size: 4vw;
     line-height: 1;
     margin: 0;
+    text-align: center;
     text-shadow: 0 0 8px #444;
   }
   
