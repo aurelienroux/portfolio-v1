@@ -1,13 +1,23 @@
 const dataProjects = [
   {
     title: 'Substance ETS',
-    content: 'Custom WordPress theme made with ACF-Pro for ETS Ecole de Technologie Superieure in Montreal',
+    content: 'Custom WordPress theme made with ACF-Pro for ETS Ecole de Technologie Superieure\'s science blog',
     pro: true,
     url: 'https://substance.etsmtl.ca/',
     techs: [
       'WordPress',
       'SCSS',
       'JS'
+    ]
+  },
+  {
+    title: 'Personal portfolio V1',
+    content: 'Portfolio was built with React as a learning project and hosted on Heroku',
+    pro: false,
+    gitRepo: 'https://github.com/aurelienroux/portfolio-v1',
+    techs: [
+      'React',
+      'SCSS'
     ]
   },
   {
@@ -20,54 +30,6 @@ const dataProjects = [
       'Woocommerce',
       'JS',
       'SCSS'
-    ]
-  },
-  {
-    title: 'Hangman',
-    content: 'lorem ipsum lorem',
-    pro: false,
-    url: 'http://yahoo.com',
-    gitRepo: 'http://gitlab.com',
-    techs: [
-      'javascript',
-      'html',
-      'vanilla JS'
-    ]
-  },
-  {
-    title: 'Hangman',
-    content: 'lorem ipsum lorem',
-    pro: false,
-    url: 'http://yahoo.com',
-    gitRepo: 'http://gitlab.com',
-    techs: [
-      'javascript',
-      'html',
-      'vanilla JS'
-    ]
-  },
-  {
-    title: 'Hangman',
-    content: 'lorem ipsum lorem',
-    pro: false,
-    url: 'http://yahoo.com',
-    gitRepo: 'http://gitlab.com',
-    techs: [
-      'javascript',
-      'html',
-      'vanilla JS'
-    ]
-  },
-  {
-    title: 'Hangman',
-    content: 'lorem ipsum lorem',
-    pro: false,
-    url: 'http://yahoo.com',
-    gitRepo: 'http://gitlab.com',
-    techs: [
-      'javascript',
-      'html',
-      'vanilla JS'
     ]
   }
 ]

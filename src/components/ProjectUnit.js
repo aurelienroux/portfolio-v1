@@ -12,14 +12,16 @@ const ProjectUnit = (props) => (
       </h3>
 
       <div className="project-unit__links">
-        <a 
-          className="project-unit__icon"
-          target="_blank" 
-          rel="noopener noreferrer" 
-          href={props.el.url}
-        >
-          <FaExternalLinkAlt />
-        </a>
+        {props.el.url && 
+          <a 
+            className="project-unit__icon"
+            target="_blank" 
+            rel="noopener noreferrer" 
+            href={props.el.url}
+          >
+            <FaExternalLinkAlt />
+          </a>
+        }
         {props.el.gitRepo && 
           <a 
             className="project-unit__icon"
