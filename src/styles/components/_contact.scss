@@ -66,4 +66,10 @@
       z-index: 10;
     }
   }
+
+  .buttons__container {
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+  }
 }

@@ -5,6 +5,7 @@ import {
   FaCodepen,
   FaGithub
 } from 'react-icons/fa';
+import CV from '../images/CV-AR.pdf';
 
 const Contact = () => (
   <div className="contact section">
@@ -48,12 +49,22 @@ const Contact = () => (
         </div>
       </div>
 
-      <a 
-        className="button"
-        href="mailto:aureroux13@gmail.com"
-      >
-        Keep in touch
-      </a>
+      <div className="buttons__container">
+        <a 
+          className="button"
+          href="mailto:aureroux13@gmail.com"
+        >
+          Say hi
+        </a>
+        <a 
+          target="_blank"
+          rel="noopener noreferrer"
+          className="button"
+          href={CV}
+        >
+          Resume
+        </a>
+      </div>
       
     </div>
   </div>
