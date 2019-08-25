@@ -5,6 +5,10 @@
   }
 
   &__techs {
-    column-count: 2;
+    column-count: 1;
+
+    @include for-tablet-portrait-up {
+      column-count: 2;
+    }
   }
 }

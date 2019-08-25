@@ -60,13 +60,17 @@ a {
 .content-container {
   margin: 0 auto;
   max-width: 100rem;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: $m-size;
+  padding-right: $m-size;
   
-  @media (max-width: 768px) {
-    padding-left: 20px;
-    padding-right: 20px;
-    
+  @include for-tablet-portrait-up {
+    padding-left: $xl-size;
+    padding-right: $xl-size;
+  }
+  
+  @include for-tablet-landscape-up {
+    padding-left: $xxl-size;
+    padding-right: $xxl-size;
   }
 }
 

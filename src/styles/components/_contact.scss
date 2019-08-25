@@ -4,9 +4,49 @@
     background-image: url('../../images/envelop-pencil.png');
   }
 
-  .social-icon {
-    height: 50px;
-    margin: 0 50px 50px 0;
-    width: 50px;
+  .social {
+    align-items: center;
+    display: flex;
+    height: 10rem;
+    justify-content: center;
+    position: relative;
+    width: 10rem;
+
+    &:hover {
+      .social__line {
+        transform: rotate(45deg);
+        transition: .3s ease-in-out;
+      }
+    }
+
+    &__link {
+      align-items: center;
+      background: $black;
+      border-radius: 100%;
+      border: 1px solid;
+      display: flex;
+      height: 8rem;
+      justify-content: center;
+      width: 8rem;
+      z-index: 20;
+    }
+    
+    &__icon {
+      height: 4rem;
+      width: 4rem;
+    }
+  
+    &__line {
+      content: "";
+      background: $light-grey;
+      height: 1px;
+      left: -12%;
+      transition: .3s ease-in-out;
+      position: absolute;
+      top: 49%;
+      transform: rotate(-45deg);
+      width: 120px;
+      z-index: 10;
+    }
   }
 }
