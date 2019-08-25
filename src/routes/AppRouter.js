@@ -4,7 +4,8 @@ import Header from '../components/HeaderHero';
 import About from '../components/About';
 import Contact from '../components/Contact';
 import Projects from '../components/Projects';
-import Nav from './Nav';
+import Nav from '../components/Nav';
+import Footer from '../components/Footer';
 
 const AppRouter = () => (
   <Router>
@@ -13,6 +14,7 @@ const AppRouter = () => (
     <Route path="/about" exact component={About} />
     <Route path="/projects" exact component={Projects} />
     <Route path="/contact" exact component={Contact} />
+    <Footer />
   </Router>
 );
 
