@@ -6,14 +6,14 @@
   min-height: 100vh;
   
   &__title {
-    color: #555;
+    color: $light-grey;
     font-family: $Montserrat;
     font-size: 6rem;
     line-height: 1;
     margin-bottom: 30px;
     margin-top: 4rem;
     text-align: center;
-    text-shadow: 0 0 5px #555;
+    text-shadow: 0 0 5px $medium-grey;
     
     @include for-tablet-portrait-up {
       font-size: 8rem;
@@ -25,7 +25,7 @@
   }
   
   &__sub {
-    color: #999;
+    color: $medium-grey;
     font-family: $Montserrat;
     font-size: 3rem;
     line-height: 1;
