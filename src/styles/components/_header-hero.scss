@@ -22,6 +22,14 @@
     @include for-tablet-landscape-up {
       font-size: 10rem;
     }
+
+    @include for-desktop-up {
+      font-size: 14rem;
+    }
+   
+    @include for-big-desktop-up {
+      font-size: 18rem;
+    }
   }
   
   &__sub {
@@ -35,6 +43,14 @@
 
     @include for-tablet-portrait-up {
       font-size: 4rem;
+    }
+
+    @include for-tablet-landscape-up {
+      font-size: 5rem;
+    }
+   
+    @include for-big-desktop-up {
+      font-size: 10rem;
     }
   }
   

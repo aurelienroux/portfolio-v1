@@ -43,12 +43,29 @@ a {
     height: 100%;
     position: absolute;
     width: 100%;
+    max-width: 800px;
   }
 
   &__text {
-    font-size: 13vw;
+    font-size: 6rem;
     text-shadow: 0 0 20px $medium-grey;
     z-index: 10;
+
+    @include for-tablet-portrait-up {
+      font-size: 8rem;
+    }
+    
+    @include for-tablet-landscape-up {
+      font-size: 10rem;
+    }
+
+    @include for-desktop-up {
+      font-size: 14rem;
+    }
+   
+    @include for-big-desktop-up {
+      font-size: 18rem;
+    }
   }
 }
 
