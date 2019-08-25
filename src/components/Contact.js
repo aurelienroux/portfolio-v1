@@ -13,6 +13,11 @@ const Contact = () => (
       <h3 className="title__text">Contact</h3>
     </div>
     <div className="content-container">
+      <p className="headline">
+        An idea you want to share ? <br /> 
+        Just want to say hi ? <br /> 
+        Let's talk!
+      </p>
       <div className="social__container">
         <div className="social">
           <a className="social__link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/rouxaurelien/">
