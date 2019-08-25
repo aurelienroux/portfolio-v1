@@ -13,7 +13,7 @@ const Contact = () => (
       <h3 className="title__text">Contact</h3>
     </div>
     <div className="content-container">
-      <div>
+      <div className="social__container">
         <div className="social">
           <a className="social__link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/rouxaurelien/">
             <FaLinkedin className="social__icon" />

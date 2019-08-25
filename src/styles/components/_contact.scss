@@ -4,6 +4,13 @@
     background-image: url('../../images/envelop-pencil.png');
   }
 
+  .social__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 60px;
+  }
+
   .social {
     align-items: center;
     display: flex;
