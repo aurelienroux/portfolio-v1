@@ -1,4 +1,4 @@
-const dataProjects = [
+const projects = [
   {
     title: 'Substance ETS',
     content: 'Custom WordPress theme made with ACF-Pro for ETS Ecole de Technologie Superieure\'s science blog',
@@ -14,7 +14,7 @@ const dataProjects = [
     title: 'Personal portfolio V1',
     content: 'Portfolio was built with React as a learning project and hosted on Heroku',
     pro: false,
-    gitRepo: 'https://github.com/aurelienroux/portfolio-v1',
+    url: 'https://github.com/aurelienroux/portfolio-v1',
     techs: [
       'React',
       'SCSS'
@@ -34,4 +34,4 @@ const dataProjects = [
   }
 ]
 
-export default dataProjects;
+export default projects;
