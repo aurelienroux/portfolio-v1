@@ -11,7 +11,7 @@ import {
 } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
-const Nav = () => (
+const Header = () => (
   <div className="nav">
     <div className="nav__top">
 
@@ -58,4 +58,4 @@ const NavBlankLink = ({ FaIcon, href }) => (
   </a>
 );
 
-export default Nav;
+export default Header;
