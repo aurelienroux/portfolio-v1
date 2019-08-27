@@ -24,39 +24,38 @@ const Nav = () => (
       </div>
       
       <div className="nav__links">
-        <Link className="icon" to="/">
-          <FaHome />
-        </Link>
-        <Link className="icon" to="/about">
-          <FaStreetView />
-        </Link>
-        <Link className="icon" to="/projects">
-          <FaFolder />
-        </Link>
-        <Link className="icon" to="/contact">
-          <FaEnvelope />
-        </Link>
+        <NavRouteLink FaIcon={FaHome} to="/" />
+        <NavRouteLink FaIcon={FaStreetView} to="/about" />
+        <NavRouteLink FaIcon={FaFolder} to="/projects" />
+        <NavRouteLink FaIcon={FaEnvelope} to="/contact" />
+        <NavRouteLink FaIcon={FaHome} to="/" />
+
         <div className="nav__links__line"></div>
       </div>
     </div>
 
     <div className="nav__right">
-      <a className="icon" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/rouxaurelien/">
-        <FaLinkedin className="social-icon" />
-      </a>
-      <a className="icon" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/rxaure/">
-        <FaInstagram className="social-icon" />
-      </a>
-      <a className="icon" target="_blank" rel="noopener noreferrer" href="https://codepen.io/Aureroux">
-        <FaCodepen className="social-icon" />
-      </a>
-      <a className="icon" target="_blank" rel="noopener noreferrer" href="https://github.com/aurelienroux">
-        <FaGithub className="social-icon" />
-      </a>
+      <NavBlankLink FaIcon={FaLinkedin} href="https://www.linkedin.com/in/rouxaurelien/" />
+      <NavBlankLink FaIcon={FaInstagram} href="https://www.instagram.com/rxaure/" />
+      <NavBlankLink FaIcon={FaCodepen} href="https://codepen.io/Aureroux" />
+      <NavBlankLink FaIcon={FaGithub} href="https://github.com/aurelienroux" />
+
       <div className="nav__right__line"></div>
     </div>
 
   </div>
+);
+
+const NavRouteLink = ({ FaIcon, to }) => (
+  <Link className="icon" to={to}>
+    <FaIcon />
+  </Link>
+);
+
+const NavBlankLink = ({ FaIcon, href }) => (
+  <a className="icon" target="_blank" rel="noopener noreferrer" href={href}>
+    <FaIcon className="social-icon" />
+  </a>
 );
 
 export default Nav;
