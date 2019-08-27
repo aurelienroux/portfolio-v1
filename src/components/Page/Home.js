@@ -1,6 +1,6 @@
 import React from 'react';
 
-const HeaderHero = () => (
+const Home = () => (
   <div className="header section content-container">
     <p className="header__text">Hello, I'm</p>
     <h1 className="header__title">Aurelien Roux</h1>
@@ -12,4 +12,4 @@ const HeaderHero = () => (
   </div>
 );
 
-export default HeaderHero;
+export default Home;
