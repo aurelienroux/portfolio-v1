@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaCodepen, FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
-import CV from '../images/CV-AR.pdf';
+import CV from '../../images/CV-AR.pdf';
 
 const Contact = () => {
   return (

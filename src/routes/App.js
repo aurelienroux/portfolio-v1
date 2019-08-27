@@ -1,13 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Header from '../components/HeaderHero';
-import About from '../components/About';
-import Contact from '../components/Contact';
-import Projects from '../components/Projects';
-import Nav from '../components/Nav';
-import Footer from '../components/Footer';
 
-const AppRouter = () => (
+import Header from '../components/Layout/HeaderHero';
+import Nav from '../components/Layout/Nav';
+import Footer from '../components/Layout/Footer';
+import About from '../components/Page/About';
+import Contact from '../components/Page/Contact';
+import Projects from '../components/Page/Projects';
+
+const App = () => (
   <Router>
     <Nav />
     <Route path="/" exact component={Header} />
@@ -18,4 +19,4 @@ const AppRouter = () => (
   </Router>
 );
 
-export default AppRouter;
+export default App;
