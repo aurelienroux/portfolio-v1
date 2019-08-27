@@ -1,6 +1,7 @@
 import React from 'react';
-import dataProjects from '../data/dataProjects';
-import ProjectUnit from './ProjectUnit'
+
+import projects from '../data/projects';
+import Project from './Project';
 
 const Projects = () => (
   <div className="projects section">
@@ -9,8 +10,8 @@ const Projects = () => (
       <h3 className="title__text">Projects</h3>
     </div>
     <div className="projects__content content-container">
-      {dataProjects.map((el, index) => (
-        <ProjectUnit key={index} el={el} />
+      {projects.map((project, index) => (
+        <Project key={index} project={project} />
       ))}
     </div>
   </div>
