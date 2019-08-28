@@ -5,10 +5,10 @@ import 'typeface-roboto';
 import 'typeface-roboto-condensed';
 import 'typeface-montserrat';
 import './styles/styles.scss';
-import App from './routes/App';
+import AppRouter from './routes/AppRouter';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<AppRouter />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
