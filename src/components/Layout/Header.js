@@ -28,7 +28,6 @@ const Header = () => (
         <NavRouteLink FaIcon={FaStreetView} to="/about" />
         <NavRouteLink FaIcon={FaFolder} to="/projects" />
         <NavRouteLink FaIcon={FaEnvelope} to="/contact" />
-        <NavRouteLink FaIcon={FaHome} to="/" />
 
         <div className="nav__links__line"></div>
       </div>
