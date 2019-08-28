@@ -18,7 +18,7 @@ const Projects = () => (
 );
 
 const Project = ({ project }) => {
-  const { content, techs, title, url, gitRepo } = project
+  const { content, techs, title, urlLive, urlGit } = project
 
   return (
     <div className="project-unit">
@@ -26,22 +26,22 @@ const Project = ({ project }) => {
         <h3 className="project-unit__title">{title}</h3>
 
         <div className="project-unit__links">
-          {url && 
+          {urlLive && 
             <a 
               className="project-unit__icon"
               target="_blank" 
               rel="noopener noreferrer" 
-              href={url}
+              href={urlLive}
             >
               <FaExternalLinkAlt />
             </a>
           }
-          {gitRepo && 
+          {urlGit && 
             <a 
               className="project-unit__icon"
               target="_blank" 
               rel="noopener noreferrer" 
-              href={gitRepo}
+              href={urlGit}
             >
               <FaGithub />
             </a>
