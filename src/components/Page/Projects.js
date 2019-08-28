@@ -21,14 +21,14 @@ const Project = ({ project }) => {
   const { content, techs, title, urlLive, urlGit } = project
 
   return (
-    <div className="project-unit">
+    <div className="project">
       <div>
-        <h3 className="project-unit__title">{title}</h3>
+        <h3 className="project__title">{title}</h3>
 
-        <div className="project-unit__links">
+        <div className="project__links">
           {urlLive && 
             <a 
-              className="project-unit__icon"
+              className="project__icon"
               target="_blank" 
               rel="noopener noreferrer" 
               href={urlLive}
@@ -38,7 +38,7 @@ const Project = ({ project }) => {
           }
           {urlGit && 
             <a 
-              className="project-unit__icon"
+              className="project__icon"
               target="_blank" 
               rel="noopener noreferrer" 
               href={urlGit}
@@ -49,11 +49,11 @@ const Project = ({ project }) => {
         </div>
       </div>
       
-      <p className="project-unit__content">{content}</p>
+      <p className="project__content">{content}</p>
 
-      <div className="project-unit__footer">
+      <div className="project__footer">
         {techs.map((tech, index) => (
-          <div className="project-unit__tech" key={index} >
+          <div className="project__tech" key={index} >
             {tech}
           </div>
         ))}
