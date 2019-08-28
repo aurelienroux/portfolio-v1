@@ -1,9 +1,9 @@
 @import './base/settings';
 @import './base/base';
-@import './components/nav';
-@import './components/header-hero';
-@import './components/about';
-@import './components/projects';
-@import './components/project-unit';
-@import './components/contact';
-@import './components/footer';
+@import './components/layout/nav';
+@import './components/layout/footer';
+@import './components/page/header-hero';
+@import './components/page/about';
+@import './components/page/projects';
+@import './components/page/project-unit';
+@import './components/page/contact';
