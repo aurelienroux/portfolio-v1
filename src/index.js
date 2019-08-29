@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import 'normalize.css/normalize.css';
 import 'typeface-roboto';
@@ -8,21 +8,11 @@ import './styles/styles.scss';
 import * as serviceWorker from './serviceWorker';
 import Header from '../components/Layout/Header';
 import Footer from '../components/Layout/Footer';
-import Router from './routes/AppRouter';
+import AppRouter from './routes/AppRouter';
 
-const App = () => (
-	<Fragment>
-		<Header />
-
-		<main>
-			<Router />
-		</main>
-
-		<Footer />
-	</Fragment>
-)
-
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Header />, document.getElementById('Header'));
+ReactDOM.render(<AppRouter />, document.getElementById('Main'));
+ReactDOM.render(<Footer />, document.getElementById('Footer'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
