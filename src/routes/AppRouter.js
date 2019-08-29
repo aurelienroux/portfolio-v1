@@ -1,18 +1,17 @@
 import React from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 import About from '../components/Page/About';
 import Contact from '../components/Page/Contact';
 import Home from '../components/Page/Home';
 import Projects from '../components/Page/Projects';
-import CustomRoute from './CustomRoute';
 
-const App = () => (
-  <Router>
-    <CustomRoute path="/" exact component={Home} />
-    <CustomRoute path="/about" exact component={About} />
-    <CustomRoute path="/projects" exact component={Projects} />
-    <CustomRoute path="/contact" exact component={Contact} />
-  </Router>
+const Router = () => (
+  <BrowserRouter>
+    <Route path="/" exact component={Home} />
+    <Route path="/about" exact component={About} />
+    <Route path="/projects" exact component={Projects} />
+    <Route path="/contact" exact component={Contact} />
+  </BrowserRouter>
 );
 
-export default App;
+export default Router;
