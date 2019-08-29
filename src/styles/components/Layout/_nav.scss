@@ -1,4 +1,4 @@
-.nav {
+.header {
   .icon {
     align-items: center;
     background: $black;
@@ -27,7 +27,7 @@
     }
   }
   
-  .nav__top {
+  .header__top {
     align-items: flex-start;
     backdrop-filter: blur(13px) brightness(60%);
     display: flex;
@@ -43,18 +43,18 @@
       margin-left: 15px;
     }
 
-    .nav__logo,
-    .nav__links {
+    .header__logo,
+    .header__links {
       display: flex;
       flex: 1;
     }
 
-    .nav__logo {
+    .header__logo {
       position: relative;
       top: -5px;
     }
 
-    .nav__logo .logo {
+    .header__logo .logo {
       fill: $light-grey;
       height: 50px;
       transition: .6s ease-in-out;
@@ -67,7 +67,7 @@
       }
     }
 
-    .nav__links {
+    .header__links {
       justify-content: flex-end;
       position: relative;
 
@@ -84,7 +84,7 @@
     }
   }
 
-  .nav__right {
+  .header__right {
     bottom: 0;
     display: none;
     flex-direction: column;
