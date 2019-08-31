@@ -5,6 +5,10 @@
   justify-content: center;
   min-height: 100vh;
 
+  .title__image {
+    background-image: url('../../../images/compass.png');
+  }
+
   .subtitle {
     color: $medium-grey;
     font-family: $Montserrat;
@@ -21,5 +25,9 @@
     @include for-tablet-landscape-up {
       font-size: 6rem;
     }
+  }
+
+  .content-container {
+    text-align: center;
   }
 }
