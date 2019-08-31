@@ -1,0 +1,25 @@
+.not-found {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+
+  .subtitle {
+    color: $medium-grey;
+    font-family: $Montserrat;
+    font-size: 3rem;
+    line-height: 1;
+    margin-top: 2rem;
+    text-align: center;
+    text-shadow: 0 0 8px #444;
+
+    @include for-tablet-portrait-up {
+      font-size: 4rem;
+    }
+
+    @include for-tablet-landscape-up {
+      font-size: 6rem;
+    }
+  }
+}

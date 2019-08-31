@@ -35,6 +35,10 @@ a {
   min-height: 60vh;
   position: relative;
   z-index: 20;
+  
+  &--small {
+    min-height: 35vh;
+  }
 
   &__image {
     background-position: center;
