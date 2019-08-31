@@ -11,7 +11,7 @@ import Footer from './components/Layout/Footer';
 import AppRouter from './routes/AppRouter';
 
 ReactDOM.render(<Header />, document.getElementById('header'));
-ReactDOM.render(<AppRouter />, document.getElementById('Main'));
+ReactDOM.render(<AppRouter />, document.getElementById('main'));
 ReactDOM.render(<Footer />, document.getElementById('footer'));
 
 // If you want your app to work offline and load faster, you can change
