@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import {
   FaEnvelope,
   FaFolder,
@@ -8,17 +8,19 @@ import {
   FaInstagram,
   FaCodepen,
   FaGithub
-} from 'react-icons/fa';
-import { Link } from 'react-router-dom';
+} from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Header = () => (
   <div className="header">
     <div className="header__top">
-
       <div className="header__logo">
         <Link to="/">
           <svg className="logo" viewBox="0 0 51 59">
-            <path d="M0.5,0.909655953 L50.5,29.7771694 L39.594,36.073656 L36.6878274,34.4283101 L11.6169922,49.0668487 L11.616,52.226656 L0.5,58.6446829 L0.5,0.909655953 Z M11.3187135,19.6482173 L11.3187135,39.9061215 L28.8625731,29.7771694 L11.3187135,19.6482173 Z" id="Combined-Shape"></path>
+            <path
+              d="M0.5,0.909655953 L50.5,29.7771694 L39.594,36.073656 L36.6878274,34.4283101 L11.6169922,49.0668487 L11.616,52.226656 L0.5,58.6446829 L0.5,0.909655953 Z M11.3187135,19.6482173 L11.3187135,39.9061215 L28.8625731,29.7771694 L11.3187135,19.6482173 Z"
+              id="Combined-Shape"
+            ></path>
           </svg>
         </Link>
       </div>
@@ -34,14 +36,19 @@ const Header = () => (
     </div>
 
     <div className="header__right">
-      <NavBlankLink FaIcon={FaLinkedin} href="https://www.linkedin.com/in/rouxaurelien/" />
-      <NavBlankLink FaIcon={FaInstagram} href="https://www.instagram.com/rxaure/" />
+      <NavBlankLink
+        FaIcon={FaLinkedin}
+        href="https://www.linkedin.com/in/rouxaurelien/"
+      />
+      <NavBlankLink
+        FaIcon={FaInstagram}
+        href="https://www.instagram.com/rxaure/"
+      />
       <NavBlankLink FaIcon={FaCodepen} href="https://codepen.io/Aureroux" />
       <NavBlankLink FaIcon={FaGithub} href="https://github.com/aurelienroux" />
 
       <div className="header__right__line"></div>
     </div>
-
   </div>
 );
 

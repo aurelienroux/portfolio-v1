@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
-import projects from '../../data/projects';
-import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
+import projects from "../../data/projects";
+import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 const Projects = () => (
   <div className="projects section">
@@ -18,7 +18,7 @@ const Projects = () => (
 );
 
 const Project = ({ project }) => {
-  const { content, techs, title, urlLive, urlGit } = project
+  const { content, techs, title, urlLive, urlGit } = project;
 
   return (
     <div className="project">
@@ -26,34 +26,34 @@ const Project = ({ project }) => {
         <h3 className="project__title">{title}</h3>
 
         <div className="project__links">
-          {urlLive && 
-            <a 
+          {urlLive && (
+            <a
               className="project__icon"
-              target="_blank" 
-              rel="noopener noreferrer" 
+              target="_blank"
+              rel="noopener noreferrer"
               href={urlLive}
             >
               <FaExternalLinkAlt />
             </a>
-          }
-          {urlGit && 
-            <a 
+          )}
+          {urlGit && (
+            <a
               className="project__icon"
-              target="_blank" 
-              rel="noopener noreferrer" 
+              target="_blank"
+              rel="noopener noreferrer"
               href={urlGit}
             >
               <FaGithub />
             </a>
-          }
+          )}
         </div>
       </div>
-      
+
       <p className="project__content">{content}</p>
 
       <div className="project__footer">
         {techs.map((tech, index) => (
-          <div className="project__tech" key={index} >
+          <div className="project__tech" key={index}>
             {tech}
           </div>
         ))}

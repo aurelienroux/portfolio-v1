@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   min-height: 100vh;
-  
+
   &__title {
     color: $light-grey;
     font-family: $Montserrat;
@@ -14,16 +14,16 @@
     margin-top: 4rem;
     text-align: center;
     text-shadow: 0 0 5px $medium-grey;
-    
+
     @include for-tablet-portrait-up {
       font-size: 8rem;
     }
-    
+
     @include for-tablet-landscape-up {
       font-size: 11rem;
     }
   }
-  
+
   &__sub {
     color: $medium-grey;
     font-family: $Montserrat;
@@ -41,7 +41,7 @@
       font-size: 6rem;
     }
   }
-  
+
   &__text {
     font-size: 1.8rem;
     margin-bottom: 0;

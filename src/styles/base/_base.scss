@@ -3,7 +3,7 @@
 }
 
 html {
-  background: radial-gradient(circle, rgba(34,34,34,1) 0%, rgba(0,0,0,1) 100%);
+  background: radial-gradient(circle, rgba(34, 34, 34, 1) 0%, rgba(0, 0, 0, 1) 100%);
   font-size: 62.5%;
   min-height: 100vh;
 }
@@ -14,7 +14,7 @@ body {
   font-size: 1.6rem;
   font-weight: 300;
   line-height: 1.6;
-  
+
   @include for-desktop-up {
     font-size: 2rem;
   }
@@ -35,7 +35,7 @@ a {
   min-height: 60vh;
   position: relative;
   z-index: 20;
-  
+
   &--small {
     min-height: 35vh;
     width: 95vw;
@@ -59,7 +59,7 @@ a {
     @include for-tablet-portrait-up {
       font-size: 8rem;
     }
-    
+
     @include for-tablet-landscape-up {
       font-size: 10rem;
     }
@@ -80,17 +80,17 @@ a {
   max-width: 100rem;
   padding-left: $m-size;
   padding-right: $m-size;
-  
+
   @include for-tablet-portrait-up {
     padding-left: $xl-size;
     padding-right: $xl-size;
   }
-  
+
   @include for-tablet-landscape-up {
     padding-left: $xxl-size;
     padding-right: $xxl-size;
   }
-  
+
   @include for-big-desktop-up {
     max-width: 120rem;
   }
@@ -102,7 +102,7 @@ a {
   padding: 15px 30px;
   text-decoration: none;
   transition: .3s;
-  
+
   &:hover {
     border: 1px solid $white;
     color: $white;

@@ -6,9 +6,18 @@ $light-grey: #999;
 $white: #ddd;
 
 // Font size
-$Roboto: Roboto, Helvetica, Arial, sans-serif;
-$Roboto-cond: 'Roboto Condensed', Helvetica, Arial, sans-serif;
-$Montserrat: Montserrat, Helvetica, Arial, sans-serif;
+$Roboto: Roboto,
+Helvetica,
+Arial,
+sans-serif;
+$Roboto-cond: 'Roboto Condensed',
+Helvetica,
+Arial,
+sans-serif;
+$Montserrat: Montserrat,
+Helvetica,
+Arial,
+sans-serif;
 
 // Spacing
 $s-size: 1.2rem;
@@ -19,17 +28,31 @@ $xxl-size: 10rem;
 
 // media queries
 @mixin for-phone-only {
-  @media (max-width: 599px) { @content; }
+  @media (max-width: 599px) {
+    @content;
+  }
 }
+
 @mixin for-tablet-portrait-up {
-  @media (min-width: 600px) { @content; }
+  @media (min-width: 600px) {
+    @content;
+  }
 }
+
 @mixin for-tablet-landscape-up {
-  @media (min-width: 900px) { @content; }
+  @media (min-width: 900px) {
+    @content;
+  }
 }
+
 @mixin for-desktop-up {
-  @media (min-width: 1200px) { @content; }
+  @media (min-width: 1200px) {
+    @content;
+  }
 }
+
 @mixin for-big-desktop-up {
-  @media (min-width: 1800px) { @content; }
+  @media (min-width: 1800px) {
+    @content;
+  }
 }

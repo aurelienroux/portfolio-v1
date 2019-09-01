@@ -1,5 +1,5 @@
 .contact {
-  
+
   .title__image {
     background-image: url('../../../images/envelop-pencil.png');
   }
@@ -8,7 +8,7 @@
     font-size: 2rem;
     margin: 0 0 60px;
     text-align: center;
-    
+
     @include for-tablet-portrait-up {
       font-size: 3rem;
     }
@@ -37,12 +37,12 @@
         transform: rotate(45deg);
         transition: .3s ease-in-out;
       }
-      
+
       .social__link {
         border: 1px solid $white;
         transition: .3s ease-in-out;
       }
-      
+
       .social__icon {
         fill: $white;
         transition: .3s ease-in-out;
@@ -60,12 +60,12 @@
       width: 8rem;
       z-index: 20;
     }
-    
+
     &__icon {
       height: 4rem;
       width: 4rem;
     }
-  
+
     &__line {
       background: $light-grey;
       content: "";
@@ -86,7 +86,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 15px 0;
-  
+
     @include for-tablet-portrait-up {
       flex-direction: row;
     }
