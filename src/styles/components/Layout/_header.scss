@@ -24,6 +24,11 @@
       height: 15px;
       transition: .3s;
       width: 15px;
+      
+      @include for-tablet-landscape-up {
+        height: 20px;
+        width: 20px;
+      }
     }
   }
   
@@ -38,9 +43,14 @@
     top: 0;
     width: 100%;
     z-index: 30;
+
     
     .icon {
       margin-left: 15px;
+      
+      @include for-tablet-landscape-up {
+        margin-left: 20px;
+      }
     }
 
     .header__logo,
@@ -102,6 +112,10 @@
 
     .icon {
       margin-top: 15px;
+
+      @include for-tablet-landscape-up {
+        margin-top: 20px;
+      }
     }
 
     &__line {
